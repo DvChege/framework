@@ -75,39 +75,6 @@ streamlit run app.py
 
 ---
 
-## 📊 Example Visualizations
-
-### 📈 Publications by Year
-
-Shows the trend of COVID-19 related publications over time.
-
-![Publications by Year](screenshots/publications_by_year.png)
-
----
-
-### 🏛️ Top Journals Publishing COVID-19 Research
-
-Highlights the most active journals publishing during the pandemic.
-
-![Top Journals](screenshots/top_journals.png)
-
----
-
-### ☁️ Word Cloud of Paper Titles
-
-Displays the most common keywords in paper titles.
-
-![Word Cloud](screenshots/wordcloud_titles.png)
-
----
-
-### 📊 Distribution of Papers by Source
-
-Breakdown of research publications by their source repositories.
-
-![Distribution by Source](screenshots/distribution_by_source.png)
-
----
 
 ## 📑 Assignment Deliverables
 
