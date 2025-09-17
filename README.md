@@ -1,43 +1,103 @@
-# Frameworks_Assignment – CORD-19 Data Exploration & Streamlit App
+🦠 CORD-19 Data Exploration & Streamlit App
+📌 Overview
 
-A beginner-friendly CORD-19 metadata analysis project. This repository contains a complete, professionally structured implementation for the assignment: data loading, cleaning, exploratory analysis, visualizations, and a Streamlit dashboard.
+This project provides a beginner-friendly workflow for analyzing the CORD-19 research dataset. It covers the entire data science pipeline — from loading and cleaning data to basic analysis, visualization, and deployment of an interactive Streamlit app.
 
-## Repo contents
-- `data/sample_metadata.csv` — a small sample of the metadata file so the code can run without downloading the full dataset.
-- `analysis/cord19_analysis.py` — a step-by-step, well-commented analysis script (load, clean, explore, visualize).
-- `app.py` — Streamlit app to explore the cleaned data and visualizations interactively.
-- `requirements.txt` — Python packages required.
-- `README.md` — this file.
-- `CONTRIBUTING.md` — contribution guide.
-- `LICENSE` — MIT License.
+The dataset contains metadata on COVID-19 research papers, including titles, abstracts, publication dates, journals, authors, and source information.
 
-## How to use
-1. (Optional) Download the full `metadata.csv` from the CORD-19 dataset if you want to run on real data:
-   https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+🔗 Dataset: CORD-19 Research Challenge (Kaggle)
 
-   Place the file in the `data/` folder and rename to `metadata.csv`.
+🎯 Learning Objectives
 
-2. Create a virtual environment & install requirements:
-```bash
-python -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+By completing this project, you will:
+
+Load and explore a real-world dataset using pandas
+
+Apply basic data cleaning techniques
+
+Generate meaningful visualizations using Matplotlib/Seaborn
+
+Build an interactive Streamlit web application
+
+Present insights in a clear and structured way
+
+🛠️ Tools & Technologies
+
+Python 3.7+
+
+pandas → data manipulation
+
+matplotlib & seaborn → data visualization
+
+Streamlit → web application framework
+
+Jupyter Notebook (optional) → exploratory analysis
+
+Install dependencies with:
+
 pip install -r requirements.txt
-```
 
-3. Run the analysis script (produces plots saved into `analysis/`):
-```bash
+📂 Project Structure
+Frameworks_Assignment/
+│── data/
+│   └── sample_metadata.csv        # Sample of the dataset (for demo)
+│── analysis/
+│   └── cord19_analysis.py         # Data loading, cleaning, visualization
+│── app.py                         # Streamlit dashboard
+│── requirements.txt               # Required Python packages
+│── README.md                      # Project documentation
+│── CONTRIBUTING.md                # Contribution guidelines
+│── LICENSE                        # License file
+
+
+🚀 Usage
+1️⃣ Run Analysis Script
 python analysis/cord19_analysis.py
-```
 
-4. Run the Streamlit app:
-```bash
+2️⃣ Launch Streamlit App
 streamlit run app.py
-```
 
-## Notes
-- The `data/sample_metadata.csv` is a small synthetic sample to let you run and test the code immediately.
-- If you place the full `metadata.csv` into `data/` the scripts will use it automatically (it may be large; consider working with a subset).
+📊 Example Visualizations
+📈 Publications by Year
 
-## Author
-Bashir — prepared and packaged for submission.
+Shows the trend of COVID-19 related publications over time.
 
+🏛️ Top Journals Publishing COVID-19 Research
+
+Highlights the most active journals publishing during the pandemic.
+
+☁️ Word Cloud of Paper Titles
+
+Displays the most common keywords in paper titles.
+
+📊 Distribution of Papers by Source
+
+Breakdown of research publications by their source repositories.
+
+📑 Assignment Deliverables
+
+Python analysis script (cord19_analysis.py)
+
+Streamlit dashboard (app.py)
+
+Documentation (README.md)
+
+GitHub repo submission (Frameworks_Assignment)
+
+✨ Expected Outcomes
+
+By the end of this project, you will have:
+✅ A functional analysis script with visualizations
+✅ Several insights about COVID-19 research trends
+✅ A working Streamlit app
+✅ A polished GitHub repository
+
+🤝 Contribution
+
+Contributions are welcome! Please read the CONTRIBUTING.md
+ for guidelines.
+
+📜 License
+
+This project is licensed under the MIT License
+.
