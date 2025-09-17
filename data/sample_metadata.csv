@@ -1,0 +1,11 @@
+cord_uid,title,abstract,publish_time,authors,journal,source_x
+id1,Clinical features of COVID-19,"Study of clinical features...",2020-03-15,"A. Researcher; B. Scientist",Lancet,medrxiv
+id2,Transmission dynamics of SARS-CoV-2,"We analyze transmission...",2020-04-02,"C. Author",Nature,pmc
+id3,Vaccine development updates,"Progress on vaccine...",2021-06-10,"D. Dev",Science,pmc
+id4,Diagnostics and testing,"PCR and antigen testing...",2020-05-20,"E. Tester",JAMA,medrxiv
+id5,Public health responses,"Policy and response...",2019-12-30,"F. Policy",BMJ,pmc
+id6,Genomic characterization,"Sequencing of virus genome...",2020-02-10,"G. Gen",Nature,pmc
+id7,Clinical trial results,"Trial results for treatment...",2021-09-01,"H. Trials",NEJM,pmc
+id8,Modeling pandemic spread,"Epidemiological models...",2020-08-18,"I. Model",PLOS,pmc
+id9,Long-term effects of COVID-19,"Post-acute sequelae...",2022-01-05,"J. Followup",Lancet,pmc
+id10,Mask effectiveness study,"Effectiveness of masks...",2020-07-11,"K. Mask",BMJ,medrxiv
